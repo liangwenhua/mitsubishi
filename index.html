@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Metronic "Aitonepage" Frontend Freebie</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 按照最高的標準模式解析頁面(必須在除 title 外的其他 meta 之前使用) -->
+
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <!-- width: 使用 device-width (裝置寬度) 作為可視區域的寬度。
+        initial-scale: 文檔初始的比例，用 1 表示 100% ，範圍從 0.1 ~ 10 可任填。
+        minimum-scale: 最小可以縮放到 0.8 比例。
+        maximum-scale: 最大可以縮放到 2.0 比例。
+        user-scalable: 是否允許使用者進行縮放。no 不允許；yes 允許。 -->
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- 全域css -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- css插件 -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- layout css -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- icon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+ 
+
+
+<!-- ============================================================================================================================ -->
+
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img logo-img-main" src="img/Mitsubishi_logo_white.svg" alt="Mitsubishi" >
+                                <img class="logo-img logo-img-active" src="img/Mitsubishi_logo.svg" alt="Mitsubishi">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">車款介紹</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#news">最新消息</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#car-info">用車資訊</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">經銷商</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">車款介紹</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#service">購車服務</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">中華汽車</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    
+                </ol>
+            </div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive" src="img/17MY_ASX_EU4_0902.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                
+                                <h1 class="carousel-title">NEW <br/>OUTLANDER ‎</h1>
+                                <p class="color-white">NEW OUTLANDER 帥領風潮搶眼登場 <br/> 內外兼具的OUTLANDER，更襯品味不凡</p>
+                            </div>
+                            <a href="http://www.outlander.com.tw/" target="_blank" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive" src="img/colt_plus.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title">NEW COLT PLUS </h2>
+                                <p class="color-white ">超能生活小轎旅超值首選 <br/> 重量級大空間還有全車型標配三合一盲區偵測</p>
+                            </div>
+                            <a href="http://www.coltplus.com.tw/" target="_blank" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive" src="img/grandlancer.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title">grand lancer </h2>
+                                <p class="color-white ">全新改款 GRAND LANCER 磅礡登場 <br>全車系標配16項安全防禦，守護您行車安全</p>
+                            </div>
+                            <a href="http://grandlancer.mitsubishi-motors.com.tw/" target="_blank" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive" src="img/zinger.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title">zinger </h2>
+                                <p class="color-white ">商旅大贏家ZINGER 2.4L 新登場 <br/> 省油功力晉升一級能效，並以嶄新的霸氣造型強勢登場</p>
+                            </div>
+                            <a href="http://zinger.china-motor.com.tw/" target="_blank" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- news -->
+        <div id="news">
+            <div class="content-lg container">
+                <!-- Masonry Grid -->
+                <div class="masonry-grid row">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
+                        <div class="margin-b-10">
+                            <h2>青春還鄉</h2>
+                            <p>中華三菱募集全台225位勵志青年，
+                                    從務農到蚵農、從旅宿文化到藝術傳統都挺身而出，一同為家鄉與夢想發聲。
+                                    最後由5位超人氣勵青獲得百萬圓夢金
+                                    中華三菱將和所有勵青一起，讓幸福發光！
+                            </p>
+                            <a class="link" href="#">Read More</a>
+                        </div>
+                        <img class="full-width img-responsive wow fadeInUp" src="img/青春還鄉.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s">
+                    </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="margin-b-10">
+                            <img class="full-width img-responsive wow fadeInUp" src="img/有機蔬食日.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
+                        </div>
+                        <h2>有機蔬食日開跑 </h2>
+                        <p>中華汽車長期支持台灣農業，為體恤同仁辛勞、促進同仁身體健康，今年7月起將落實「產地直送」的概念，支持部落農友產銷，於每周二、三將部落最新鮮的有機蔬菜直送到廠區</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 disNon">
+                        <div class="margin-b-10">
+                            <h2>一哩低碳 一里幸福</h2>
+                            <p>在中華電動車e-moving不斷的落實與實踐下，近年更積極協助打造低碳生活城市，除了推動本島城市旅遊外，於去年起推動「一哩低碳 一里幸福」計畫。</p>
+                            <a class="link" href="#">Read More</a>
+                        </div>
+                        <img class="full-width img-responsive wow fadeInUp" src="img/e1.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".4s">
+                    </div>
+                </div>
+                <!-- End Masonry Grid -->
+            </div>
+            
+            <div class="bg-color-sky-light" >
+                <div class="content-lg container">
+                    <div class="row" id="car-info">
+                        <div class="col-md-5 col-sm-5 md-margin-b-60">
+                            <div class="margin-t-50 margin-b-30">
+                                <h2>用車秘訣</h2>
+                                <p>有了這些出門小撇步後，相信諸位愛車的車主們都能得到一些「愛車」方面的小常識，哇！開車的學問可真多，從車身的保養，到車內的保潔，還有車內人的行為，就像食物鏈一樣，環環相扣，希望車主們都能與車子惺惺相惜喔！
+                                    </p>
+                            </div>
+                            <a href="#" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">看更多</a>
+                        </div>
+                        <div class="col-md-5 col-sm-7 col-md-offset-2">
+                            <!-- Accordion -->
+                            <div class="accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title">
+                                                <a class="panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    人車平安身體好‧「三油三水」不可少
+                                                                                                    </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                「三油」指的是機油、變速箱油、煞車油；三水指的是水箱冷卻水、電瓶水及雨刷水。至於三油三水不能等閒視之的原因為何，車主們可上網在搜尋框裡鍵入五油三水，就會顯示相關訊息了；而三油三水要多久注意尋一次呢？車廠維修師建議：一週一次即可，出遠門前也要再尋一下，以確保人車安全。
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    車內空氣好清新　呼吸健康沒煩惱
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                打造車內優質空氣品質的第一步驟，就是經常打掃車內的每一處。平時將腳踏墊拿出車外拍一拍，讓附著其上的塵沙掉落，每隔一段時間清洗踏墊，如此才不會讓這些塵沙跟著冷氣一同運轉，降低了車內的空氣品質。
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    優良品質掛保證‧防曬隔熱不冒泡
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">
+                                                施工品質好壞，間接影響到隔熱紙的服貼度，一般施工人員會先在車窗上灑些清潔劑或清水，讓紙能更服貼也方便施工，技術若不夠老道的，當紙與玻璃間的水份經片刻時間蒸發後，就會形成氣泡。另外，施工場所也必須在室內，避免塵沙於施工時黏附玻璃，減損隔熱紙服貼度。
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Accodrion -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End news -->
+
+        <!-- New -->
+        <div id="new">
+            <div class="content-lg container">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>NEWS</h2>
+                        <p>掌握最新中華汽車的活動消息</p>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row">
+                    
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="img-responsive" src="img/bir.jpg" alt="Latest ㄇ Image">
+                        </div>
+                        <h4><a href="http://www.china-motor.com.tw/news_20171028.php" target="_blank>Read More">中華汽車家庭日</a> <span class="text-uppercase margin-l-20">2017 / 10 /20</span></h4>
+                        <p>	中華汽車超幸福!! 2017家庭日6,800位同仁眷屬同遊六福村 福利好、生育率高 締造50對夫妻檔、22對親子檔同仁 還有784位同仁子女在中華汽車幼兒園托育下成長茁壯
+                        </p>
+                        <a class="link" href="http://www.china-motor.com.tw/news_20171028.php" target="_blank">Read More</a>
+                    </div>
+                    
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="img-responsive" src="img/mitsubishi-eclipse-cross.jpg" alt="Latest ㄇ Image">
+                        </div>
+                        <h4><a href="http://auto.ltn.com.tw/news/8346/44" target="_blank">新車銷售滿意度調查</a> <span class="text-uppercase margin-l-20">2017 / 10 /15</span></h4>
+                        <p> 國際知名的汽車評測機構《J.D. Power》每年都會進行新車銷售滿意度調查（SSI），而台灣市場 2017 年度的調查結果在今（31）日出爐，由中華三菱拿下第一名。</p>
+                        <a class="link" href="http://auto.ltn.com.tw/news/8346/44" target="_blank">Read More</a>
+                    </div>
+
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="img-responsive" src="img/child.jpg" alt="Latest ㄇ Image">
+                        </div>
+                        <h4><a href="http://www.china-motor.com.tw/news_20171021.php" target="_blank">偏鄉小學運 </a> <span class="text-uppercase margin-l-20">2017 / 11 /2Ò</span></h4>
+                        <p>	2017中華三菱「偏鄉小學運」再出發 串聯車主志工前進南投、嘉義。 同場加映候鳥健檢、兒童安全體驗營 用愛守護偏鄉行的安全活動中，落實中華三菱用愛守護台灣行車安全的理念。</p>
+                        <a class="link" href="http://www.china-motor.com.tw/news_20171021.php" target="_blank">Read More</a>
+                    </div>
+                    
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End New -->
+
+        <!-- Pricing -->
+        <div id="pricing">
+            <div class="bg-color-sky-light">
+                <div class="content-lg container">
+                    <div class="row row-space-1">
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <!-- Pricing -->
+                            <div class="pricing">
+                                <div class="margin-b-30">
+                                    
+                                    <h3>匯豐汽車 </h3>
+                                    <p>為台灣最大直營汽車經銷商
+                                    </p>
+                                </div>
+                                <ul class="list-unstyled pricing-list margin-b-50">
+                                    <li class="pricing-list-item">全車系汽車保養維修預約服務</li>
+                                    <li class="pricing-list-item">高品質商品和專業服務</li>
+                                    <li class="pricing-list-item">汽車貸款、汽車保險</li>
+                                </ul>
+                                <a href="http://www.30888.com.tw/" target="_blank" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Go</a>
+                            </div>
+                            <!-- End Pricing -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <!-- Pricing -->
+                            <div class="pricing pricing-active">
+                                <div class="margin-b-30">
+                                                                        <h3>順益汽車 </h3>
+                                    <p>三菱汽車專屬經銷商</p>
+                                </div>
+                                <ul class="list-unstyled pricing-list margin-b-50">
+                                    <li class="pricing-list-item">提供全方位的汽車相關服務</li>
+                                    <li class="pricing-list-item">新車銷售、中古車買賣</li>
+                                    <li class="pricing-list-item">維修保養的第一選擇</li>
+                                </ul>
+                                <a href="http://www.sym-motor.com.tw/" target="_blank" class="btn-theme btn-theme-sm btn-default-bg  text-uppercase">Go</a>
+                            </div>
+                            <!-- End Pricing -->
+                        </div>
+                        <div class="col-sm-4">
+                            <!-- Pricing -->
+                            <div class="pricing">
+                                <div class="margin-b-30">
+                                    
+                                    <h3>裕益汽車 </h3>
+                                    <p>引進工程不同需求的高品質車種</p>
+                                </div>
+                                <ul class="list-unstyled pricing-list margin-b-50">
+                                    <li class="pricing-list-item">各式特種汽車代理銷售與維修服務</li>
+                                    <li class="pricing-list-item">日本三菱FUSO的大貨車</li>
+                                    <li class="pricing-list-item">堅達系列貨車及其相關零配件</li>
+                                </ul>
+                                <a href="http://www.truck-bus.com.tw/" target="_blank" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Go</a>
+                            </div>
+                            <!-- End Pricing -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Pricing -->
+
+        <!-- Work -->
+        <div id="work">
+            <div class="section-seperator">
+                <div class="content-md container">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                            <h2>車款介紹</h2>
+                            <p>提供各式進口車、乘用車、商用車銷售服務，歡迎前來賞車</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <!-- Masonry Grid -->
+                    <div class="masonry-grid row">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-30">
+                            <!-- Work -->
+                            
+                            <div class="work">
+                                <div class="work-overlay">
+                                    <!-- <figcaption>
+                                        <h3>Buy Now</h3>
+                                    </figcaption>
+                                    <a href="#"></a> -->
+                                    <img class="full-width img-responsive" src="img/car_1.jpg" alt="Portfolio Image">
+                                    
+                                </div>
+                                
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-30">
+                            <!-- Work -->
+                            <figure class="work">
+                                <div class="work-overlay">
+                                    
+                                    <img class="full-width img-responsive" src="img/car_2.jpg" alt="Portfolio Image">
+                                </div>
+                                
+                            </figure>
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
+                            <!-- Work -->
+                            <div class="work">
+                                <div class="work-overlay">
+                                    
+                                    <img class="full-width img-responsive" src="img/car_3.jpg" alt="Portfolio Image">
+                                </div>
+                                
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30 sm-margin-t-30">
+                            <!-- Work -->
+                            <div class="work">
+                                <div class="work-overlay">
+                                  
+                                    <img class="full-width img-responsive" src="img/car_4.jpg" alt="Portfolio Image">
+                                </div>
+                                
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                            <!-- Work -->
+                            <div class="work">
+                                <div class="work-overlay">
+                                    
+                                    <img class="full-width img-responsive" src="img/car_5.jpg" alt="Portfolio Image">
+                                </div>
+                                
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                    </div>
+                    <!-- End Masonry Grid -->
+                </div>
+            </div>
+         
+        </div>
+        <!-- End Work -->
+
+        <!-- Service -->
+        <div id="service">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="content-lg container">
+                    
+                    <!--// end row -->
+
+                    <div class="row row-space-1 margin-b-2">
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                </div>
+                                <div class="service-info">
+                                    <h3>預約賞車</h3>
+                                    <p class="margin-b-5">卓越環艙科技，體驗人車合一的操控感，輕鬆駕馭，立即預約賞車試乘！</p>
+                                </div>
+                                <a href="http://www.5230.com.tw/index.php/Watchcar" target="_blank" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                </div>
+                                <div class="service-info">
+                                    <h3>展示據點</h3>
+                                    <p class=" margin-b-5">部分據點營業時間不同 詳細營業時間請洽各展示中心</p>
+                                </div>
+                                <a href="http://www.5230.com.tw/index.php/Salemall" target="_blank" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                </div>
+                                <div class="service-info">
+                                    <h3>認證中古車</h3>
+                                    <p class="margin-b-5">三菱認證中古車 為中華汽車原廠100%投資直營成立 菱威汽車股份有限公司。</p>
+                                </div>
+                                <a href="http://www.mpo.com.tw/" target="_blank" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row row-space-1">
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                </div>
+                                <div class="service-info">
+                                    <h3> 愛車速配</h3>
+                                    <p class="margin-b-5">針對您的預算與喜好需求，三菱為您快速篩選出與您最速配的愛車。</p>
+                                </div>
+                                <a href="http://www.5230.com.tw/index.php/Match" target="_blank" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                </div>
+                                <div class="service-info">
+                                    <h3>定期保養資訊</h3>
+                                    <p class="margin-b-5">車輛平常使用狀況正常，又沒有毛病或異常狀況，為何一定要按時定期保養呢？</p>
+                                </div>
+                                <a href="http://www.5230.com.tw/index.php/Content1/index/type/12/id/*/title/*" target="_blank" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                </div>
+                                <div class="service-info">
+                                    <h3>會員專區</h3>
+                                    <p class="margin-b-5">三菱汽車提供車主專屬的會員服務、有車輛維修資料、愛車服務、車主權益、愛車保養...</p>
+                                </div>
+                                <a href="http://www.5230.com.tw/index.php/Login" target="_blank" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Service -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <!-- Contact List -->
+            <div class="section-seperator">
+                <div class="content-lg container">
+                    <div class="row">
+                        <!-- Contact List -->
+                        <div class="col-sm-5 sm-margin-b-50">
+                            <h3><a href="#">中華汽車工業股份有限公司</a> <span class="text-uppercase margin-l-20">總公司</span></h3>
+                            <p>326桃園市楊梅區秀才路618號</p>
+                            <ul class="list-unstyled contact-list">
+                                <li><i class="margin-r-10 color-base icon-call-out"></i>  03-4783191</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i> hq@aitOnepage.com</li>
+                            </ul>
+                        </div>
+                        <!-- End Contact List -->
+
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Contact List -->
+            
+            <!-- Google Map -->
+            <div id="map" class="map height-300"></div>
+
+            <div id="style-selector-control"  class="map-control">
+                <select id="style-selector" class="selector-control">
+                  <option value="default">Default</option>
+                  <option value="silver" selected="selected">Silver</option>
+                  <option value="night" >Night mode</option>
+                  <option value="retro" >Retro</option>
+                  <option value="hiding">Hide features</option>
+                </select>
+              </div>
+              
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Links -->
+            <div class="section-seperator">
+                <div class="content-md container">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-6 sm-margin-b-30">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a href="http://www.mitsubishi-motors.com.tw/index.php/Match" target="_blank">購車服務</a></li>
+                                <li class="footer-list-item"><a href="http://www.mitsubishi-motors.com.tw/index.php/Content1/index/type/12/id/*/title/*" target="_blank">用車資訊</a></li>
+                                <li class="footer-list-item"><a href="http://www.mitsubishi-motors.com.tw/index.php/Content1/index/type/17/id/*/title/*" target="_blank">關於我們</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-4 col-xs-6 sm-margin-b-30">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a href="http://www.mitsubishi-motors.com.tw/index.php/Content1/index/type/13/id/*/title/*" target="_blank">五心級服務</a></li>
+                                <li class="footer-list-item"><a href="http://www.mitsubishi-motors.com.tw/index.php/Content1/index/type/19/id/*/title/*" target="_blank">領先科技</a></li>
+                                <li class="footer-list-item"><a href="http://www.mitsubishi-motors.com.tw/index.php/Content2/index/type/9" target="_blank">車博士專區</a></li>
+                            
+                              
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-4 col-xs-6">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                  <li class="footer-list-item"><a href="https://www.facebook.com/5230.tw" target="_blank">Facebook</a></li>
+                                <li class="footer-list-item" ><a href="https://www.instagram.com/mitsubishimotors/" target="_blank" >Instagram</a></li>
+                                <li class="footer-list-item"><a href="https://www.youtube.com/user/love30car" target="_blank">YouTube</a></li>
+                                </ul>
+                            <!-- End List -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Links -->
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                   
+                    <div class="col-xs-12">
+                        <p class="margin-b-0 text-center" style="font-size:12px "><a class="fweight-300" href="http://keenthemes.com/preview/aitonepage/">Copyright © 2017 CMC Inc. All rights reserved.</a> <a class="fweight-700" href="＃"></a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <!-- 使用 jQuery 加上 jQuery Easing 外掛是套用 Easing 函數最簡單的方式。你只需要指定 
+            Easing 函數名稱給.animate方法當做第三個參數 easing 的鍵值。 -->
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+        
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <!-- 動態效果 -->
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <!-- 輪播 -->
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <!-- 瀑布流 -->
+        <script src="js/components/google-map.js" type="text/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx-IsDTEjfESWYivu32oCNsZ7caU0sQ68&callback=initMap"></script>
+        
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    <!-- END BODY -->
+</html>
